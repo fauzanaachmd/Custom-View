@@ -16,6 +16,7 @@
 		D4E106BF23D7FFCB0041B47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E106BD23D7FFCB0041B47B /* LaunchScreen.storyboard */; };
 		D4E106CA23D7FFCB0041B47B /* Custom_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E106C923D7FFCB0041B47B /* Custom_ViewTests.swift */; };
 		D4E106D523D7FFCB0041B47B /* Custom_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E106D423D7FFCB0041B47B /* Custom_ViewUITests.swift */; };
+		D4E106E323D804920041B47B /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E106E223D804920041B47B /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D4E106D023D7FFCB0041B47B /* Custom ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E106D423D7FFCB0041B47B /* Custom_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_ViewUITests.swift; sourceTree = "<group>"; };
 		D4E106D623D7FFCB0041B47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E106E223D804920041B47B /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D4E106AE23D7FFCA0041B47B /* Custom View */ = {
 			isa = PBXGroup;
 			children = (
+				D4E106E223D804920041B47B /* MealTableViewController.swift */,
 				D4E106AF23D7FFCA0041B47B /* AppDelegate.swift */,
 				D4E106B123D7FFCA0041B47B /* SceneDelegate.swift */,
 				D4E106B323D7FFCA0041B47B /* ViewController.swift */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E106E323D804920041B47B /* MealTableViewController.swift in Sources */,
 				D4E106B423D7FFCA0041B47B /* ViewController.swift in Sources */,
 				D4E106BA23D7FFCA0041B47B /* Custom_View.xcdatamodeld in Sources */,
 				D4E106B023D7FFCA0041B47B /* AppDelegate.swift in Sources */,
