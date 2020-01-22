@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    //    var meals = [Meal]()
+    @IBOutlet weak var customTableView: UITableView!
     
     private var data: [String] = []
     

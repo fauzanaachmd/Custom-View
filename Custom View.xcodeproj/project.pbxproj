@@ -17,6 +17,7 @@
 		D4E106CA23D7FFCB0041B47B /* Custom_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E106C923D7FFCB0041B47B /* Custom_ViewTests.swift */; };
 		D4E106D523D7FFCB0041B47B /* Custom_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E106D423D7FFCB0041B47B /* Custom_ViewUITests.swift */; };
 		D4E106E323D804920041B47B /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E106E223D804920041B47B /* MealTableViewController.swift */; };
+		D4E106E923D8107A0041B47B /* CustomTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E106E823D8107A0041B47B /* CustomTableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D4E106D423D7FFCB0041B47B /* Custom_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_ViewUITests.swift; sourceTree = "<group>"; };
 		D4E106D623D7FFCB0041B47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E106E223D804920041B47B /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		D4E106E823D8107A0041B47B /* CustomTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,8 @@
 		D4E106AE23D7FFCA0041B47B /* Custom View */ = {
 			isa = PBXGroup;
 			children = (
+				D4E106E523D80F920041B47B /* Controllers */,
+				D4E106E423D80F770041B47B /* Views */,
 				D4E106E223D804920041B47B /* MealTableViewController.swift */,
 				D4E106AF23D7FFCA0041B47B /* AppDelegate.swift */,
 				D4E106B123D7FFCA0041B47B /* SceneDelegate.swift */,
@@ -132,6 +136,21 @@
 				D4E106D623D7FFCB0041B47B /* Info.plist */,
 			);
 			path = "Custom ViewUITests";
+			sourceTree = "<group>";
+		};
+		D4E106E423D80F770041B47B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4E106E823D8107A0041B47B /* CustomTableView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4E106E523D80F920041B47B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E106BF23D7FFCB0041B47B /* LaunchScreen.storyboard in Resources */,
+				D4E106E923D8107A0041B47B /* CustomTableView.xib in Resources */,
 				D4E106BC23D7FFCB0041B47B /* Assets.xcassets in Resources */,
 				D4E106B723D7FFCA0041B47B /* Main.storyboard in Resources */,
 			);
